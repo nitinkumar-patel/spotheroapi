@@ -1,0 +1,28 @@
+[flake8]
+exclude =
+    __pycache__,
+    python_venv,
+    client,
+    automation_test,
+    old,
+    Ref,
+    build,
+    dist,
+    .git
+max-line-length = 120
+max-complexity = 10
+
+# We also support "double" and "single"
+inline-quotes = '
+#
+# We also support configuration for multiline quotes
+# We also support "'''"
+multiline-quotes = '
+#
+# We also support docstring quotes similarly
+# docstring-quotes = '
+# docstring-quotes = '''
+docstring-quotes = """
+#
+# We also support disabling escaping quotes
+# avoid-escape = False
