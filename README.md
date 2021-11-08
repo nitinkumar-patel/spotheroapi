@@ -64,6 +64,7 @@ pytest
 The Back-end REST APIs should be available at http://localhost:5000/.
 - The Admin Interface should be available at http://localhost:5000/admin/ .  
   - usr:pass -- admin:admin
+  - Note: create superuser (need to run onetime only) `echo "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@example.com', 'admin')" | python manage.py shell`
 - The Swagger Docs should be available at http://localhost:5000/swagger/.
 - The ReDoc should be available at http://localhost:5000/redoc/.
 
